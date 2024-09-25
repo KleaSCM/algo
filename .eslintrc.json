@@ -1,3 +1,47 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "react/prop-types": "off", // Disable prop-types as we use TypeScript
+    "react/no-unescaped-entities": "warn", // Warn about unescaped entities
+    "quotes": ["error", "single"], // Prefer single quotes
+    "semi": ["error", "always"], // Require semicolons
+    "@typescript-eslint/no-explicit-any": "warn", // Warn for any type usage
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }], // Ignore unused vars that start with _
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }], // Allow JSX in TSX files only
+    "react/jsx-no-bind": [
+      "warn",
+      {
+        "ignoreRefs": true,
+        "allowFunctions": true,
+        "allowArrowFunctions": true
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically detect the react version
+    }
+  }
 }

@@ -112,7 +112,7 @@ const GraphVisualizer: React.FC<GraphProps> = ({ algorithm }) => {
         
         <h4>Breadth-First Search (BFS)</h4>
         <p>
-          BFS explores the graph level by level. It starts from the root (or a selected node) and visits all its neighbors before moving on to the neighbors' neighbors. BFS is implemented using a queue data structure.
+          BFS explores the graph level by level. It starts from the root (or a selected node) and visits all its neighbors before moving on to the neighbors&apos; neighbors. BFS is implemented using a queue data structure.
         </p>
         <h5>Pseudocode:</h5>
         <pre>

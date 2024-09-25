@@ -12,7 +12,7 @@ const ExplanationPage: React.FC = () => {
       
       <h3>Bubble Sort</h3>
       <p>
-        Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The algorithm gets its name from the way smaller elements "bubble" to the top of the list.
+        Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The algorithm gets its name from the way smaller elements &quot;bubble&quot; to the top of the list.
       </p>
       <h4>Pseudocode:</h4>
       <pre>
@@ -68,17 +68,17 @@ const ExplanationPage: React.FC = () => {
       
       <h4>Mathematical Explanation:</h4>
       <p>
-        BFS traverses the graph level by level. Each node is processed before its neighbors, ensuring all nodes at a given depth are visited before going deeper.
+        BFS traverses the graph level by level, ensuring the shortest path in unweighted graphs is found.
       </p>
       
       <h4>Use Cases in Software Engineering:</h4>
       <p>
-        BFS is used in various applications, including finding the shortest path in unweighted graphs and in social networks to find connections.
+        BFS is widely used in finding the shortest path on unweighted graphs, social network analysis, and in web crawling.
       </p>
-
+      
       <h3>Depth-First Search (DFS)</h3>
       <p>
-        DFS explores as far as possible along each branch before backtracking. It can be implemented using recursion or a stack.
+        DFS explores as far as possible along a branch before backtracking. It can be implemented using recursion or a stack.
       </p>
       <h4>Pseudocode:</h4>
       <pre>
@@ -89,23 +89,18 @@ const ExplanationPage: React.FC = () => {
             DFS(graph, neighbor, visited)`}
       </pre>
       <h4>Time Complexity Analysis:</h4>
-      <p>O(V + E) — Similar to BFS, it explores all vertices and edges.</p>
+      <p>O(V + E) — Similar to BFS, as each vertex and edge is processed.</p>
       <h4>Space Complexity:</h4>
-      <p>O(V) — Space for the visited nodes and recursion stack.</p>
+      <p>O(V) — Requires space to store the visited nodes.</p>
       
       <h4>Mathematical Explanation:</h4>
       <p>
-        DFS dives deep into the graph, visiting nodes until it cannot go further, then backtracks to explore other branches. This method is effective for exploring all paths in a graph.
+        DFS dives deep into the graph, making it useful for scenarios where you need to explore all paths, such as in puzzle solving or pathfinding algorithms.
       </p>
       
       <h4>Use Cases in Software Engineering:</h4>
       <p>
-        DFS is useful for tasks such as topological sorting, cycle detection, and maze solving.
-      </p>
-
-      <h2>Conclusion</h2>
-      <p>
-        Understanding these fundamental algorithms allows software engineers to optimize code and improve application performance. Mastery of algorithms is a key skill in the field of computer science.
+        DFS is effective in topological sorting, cycle detection in graphs, and solving mazes.
       </p>
     </div>
   );
