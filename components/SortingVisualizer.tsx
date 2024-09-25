@@ -42,4 +42,4 @@ const SortingVisualizer: React.FC = () => {
   );
 };
 
-export default SortingVisualizer
+export default SortingVisualizer;
