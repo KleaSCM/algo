@@ -12,7 +12,7 @@ const ExplanationPage: React.FC = () => {
       
       <h3>Bubble Sort</h3>
       <p>
-        Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The algorithm gets its name from the way smaller elements &quot;bubble&quot; to the top of the list.
+        Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The algorithm gets its name from the way smaller elements "bubble" to the top of the list.
       </p>
       <h4>Pseudocode:</h4>
       <pre>
