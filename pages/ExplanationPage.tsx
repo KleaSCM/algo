@@ -6,10 +6,7 @@ const ExplanationPage: React.FC = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <p>
-        115:157 Error: &apos;{`'`} can be escaped with &apos; &lsquo; &amp;#39; &amp;rsquo;. 
-        react/no-unescaped-entities
-      </p>
+      <p>115:157 Error: no-unescaped-entities</p>
     </div>
   );
 };

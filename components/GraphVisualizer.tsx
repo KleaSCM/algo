@@ -104,14 +104,6 @@ const GraphVisualizer: React.FC<GraphProps> = ({ algorithm }) => {
           </marker>
         </defs>
       </svg>
-
-      {/* Explanation Section for Algorithms */}
-      <div className={styles.algorithmExplanation}>
-        <h3>Graph Traversal Algorithms: BFS and DFS</h3>
-        <p>
-          The <strong>Breadth-First Search (BFS)</strong> and <strong>Depth-First Search (DFS)</strong> algorithms are fundamental graph traversal techniques. BFS explores nodes level by level, while DFS explores as far as possible along each branch before backtracking.
-        </p>
-      </div>
     </div>
   );
 };
