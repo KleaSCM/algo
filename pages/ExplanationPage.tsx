@@ -6,7 +6,6 @@ const ExplanationPage: React.FC = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <p>115:157 Error: no-unescaped-entities</p>
     </div>
   );
 };
