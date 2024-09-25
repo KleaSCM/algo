@@ -1,0 +1,56 @@
+
+.graphContainer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px; // Add padding for better spacing
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; // Space between buttons
+  }
+  
+  .controls button { // Scoped under .controls
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0070f3; // Primary button color
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #005bb5; // Darker shade on hover
+  }
+  
+  .nodeGroup circle {
+    fill: #0070f3;
+    transition: fill 0.8s ease;
+  }
+  
+  .nodeGroup circle.visited {
+    fill: #4caf50;
+  }
+  
+  .nodeGroup circle.current {
+    fill: #ff5722;
+  }
+  
+  .nodeGroup text {
+    fill: black;
+    font-size: 14px;
+  }
+  
+  .graphLine {
+    transition: stroke 0.8s ease;
+  }
+  
+  .graphSVG {
+    width: 100%; // Make SVG responsive
+    height: auto; // Maintain aspect ratio
+  }
+  

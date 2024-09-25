@@ -1,0 +1,31 @@
+
+.navbar {
+    margin-top: 20px;
+    background-color: #f8f9fa; // Light background for the navbar
+    padding: 10px;
+    border-radius: 5px; // Rounded corners
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; // Center items in the navbar
+    gap: 15px; // Space between list items
+  }
+  
+  .listItem {
+    margin: 0; // Reset margin
+  }
+  
+  .link {
+    text-decoration: none; // Remove underline
+    color: #0070f3; // Primary link color
+    font-weight: bold; // Bold text
+    transition: color 0.3s ease; // Transition effect for hover
+  }
+  
+  .link:hover {
+    color: #005bb5; // Darker shade on hover
+  }
+  

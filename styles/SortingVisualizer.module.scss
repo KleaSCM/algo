@@ -1,0 +1,28 @@
+
+.sortingContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .arrayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .arrayBar {
+    background-color: #0070f3;
+    margin: 0 5px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 12px;
+    transition: height 0.5s ease;
+  }
+  

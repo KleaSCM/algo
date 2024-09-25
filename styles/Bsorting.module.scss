@@ -1,0 +1,33 @@
+.visualizerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .arrayContainer {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .bar {
+    width: 20px;
+    background-color: #0070f3;
+    margin: 0 2px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: height 0.5s ease;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .bigo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

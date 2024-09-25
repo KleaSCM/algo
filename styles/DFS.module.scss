@@ -1,0 +1,14 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content */
+    margin: 20px; /* Margin around the content */
+  }
+  
+  .title {
+    color: #333; /* Darker text for the title */
+    font-size: 2rem; /* Font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
